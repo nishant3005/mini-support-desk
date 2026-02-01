@@ -7,8 +7,7 @@ import { ErrorMessage } from "@/components/ErrorMessage";
 import { Button } from "@/components/Button";
 import { Input } from "@/components/Input";
 import { Textarea } from "@/components/Textarea";
-import { Select } from "@/components/Select";
-import type { TicketStatus, TicketPriority } from "@/types";
+import type { TicketStatus } from "@/types";
 
 const statusOptions: { value: TicketStatus; label: string }[] = [
   { value: "OPEN", label: "Open" },
