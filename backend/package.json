@@ -2,11 +2,11 @@
   "name": "mini-support-desk-backend",
   "version": "1.0.0",
   "description": "Mini Support Desk API",
-  "main": "dist/server.js",
+  "main": "dist/src/server.js",
   "scripts": {
     "build": "tsc",
     "dev": "tsx watch src/server.ts",
-    "start": "node dist/server.js",
+    "start": "node dist/src/server.js",
     "migrate": "prisma migrate deploy",
     "migrate:dev": "prisma migrate dev",
     "generate": "prisma generate",
